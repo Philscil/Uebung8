@@ -2,7 +2,7 @@ package h1;
 
 public class H1_main {
     public static void main(String[] args) {
-        Bruch b = new Bruch(4, 3);
+        Bruch b = new Bruch(96, 27);
         b.shorten();
 
         System.out.println("Gekürzter Bruch: " + b.zaehler + "/" + b.nenner);

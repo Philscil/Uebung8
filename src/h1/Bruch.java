@@ -21,8 +21,6 @@ public class Bruch {
             q = a / b;
 
             r = a - q * b;
-
-            a = q * b - r;
         }
 
         return b;

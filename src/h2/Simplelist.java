@@ -1,14 +1,14 @@
 package h2;
 
-public class Simplelist {
-    Node head;
+public class SimpleList {
+    public Node head;
 
-    public Simplelist() {
+    public SimpleList() {
         Node n = new Node(Integer.MIN_VALUE);
         head = n;
     }
 
-    public Node getfirst() {
+    public Node getFirst() {
         if (head.next == null) {
             return null;
         }
